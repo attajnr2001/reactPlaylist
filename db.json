@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "My First Blog",
+      "body": "This is a desktop app that interactively and with sample code demonstrates core features of the Electron API. It's built with Electron, too, of course. This app works on Windows, macOS and Linux operating systems.      Use this app to see what you can do with Electron and use the source code to learn how to create a basic Electron app.",
+      "author": "ace"
+    },
+    {
+      "id": 2,
+      "title": "My Second Blog",
+      "body": "This project adheres to the Contributor Covenant code of conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to coc@electronjs.org.Follow @ElectronJS on Twitter for important announcements. Visit the electron website.",
+      "author": "jnr"
+    }
+  ]
+}

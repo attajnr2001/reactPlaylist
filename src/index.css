@@ -1,0 +1,89 @@
+:root {
+  font-family: "poppins";
+  width: 70%;
+  margin: auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+a{
+  text-decoration: none;
+}
+
+/* navLink */
+.navLink{
+  padding: .4em 1.2em;
+  margin-left: .3em;
+}
+
+.navLink.active{
+  background: #ff6881;
+  border-radius: .3em;
+  transition: .3s all;
+}
+
+/* navbar */
+.title, .author{
+  font-family: "pacifico";
+}
+
+
+.navbar{
+  border-bottom: 1px solid #333;
+  padding: .5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+
+/* home */
+.blog{
+  background: #f2f2f2;
+  padding: 1em;
+  border-radius: .3em;
+  margin: .3em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog a{
+  flex: 1;
+}
+
+._title{
+  color: #ff6881;
+}
+
+/* .button */
+.btn{
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: .6em 1.3em;
+  border-radius: .3em;
+  cursor: pointer;
+}
+
+.delBtn{
+  background: #ff5874;
+}
+
+.blogDetails .body{
+  font-size: .95em;
+}
+
+.blogDetails{
+  background: #f2f2f2;
+  padding: 1em;
+  border-radius: .3em;
+}
+
+.blogDetails .blogTitle{
+  color: #ff5874;
+  font-weight: 600;
+}
